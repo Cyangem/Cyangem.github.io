@@ -10,9 +10,9 @@
     <atom:link href="https://Cyangem.github.io/tags/credit-risk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[Gen AI]  x  [Kaggle]</title>
-      <link>https://Cyangem.github.io/post/artical2_ai_risk/</link>
+      <link>https://Cyangem.github.io/post/agi_trainings/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyangem.github.io/post/artical2_ai_risk/</guid>
+      <guid>https://Cyangem.github.io/post/agi_trainings/</guid>
       <description>&lt;h2 id=&#34;key-takeaways&#34;&gt;Key Takeaways&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Comprehensive Generative AI Framework: Gained a foundational understanding of Generative AI concepts, covering LLM evolution, embeddings, AI agents, domain-specific LLMs, and MLOps practices.&lt;/li&gt;&#xA;&lt;li&gt;Practical Skills: Hands-on experience with the Gemini API, embedding usage, grounding techniques, function calling in LLMs, fine-tuning custom models, and applying MLOps with Vertex AI.&lt;/li&gt;&#xA;&lt;li&gt;Domain Specialization: Learned to fine-tune models like Gemini for domain-specific tasks, such as analyzing payment behavior, predicting default probabilities, and creating customized credit scoring models using proprietary FinTech data.&lt;/li&gt;&#xA;&lt;li&gt;Real-World Applications: Learned to bridge AI systems with external tools (e.g., SQL, Google Search) and deploy sophisticated AI agents for practical use cases.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;objective&#34;&gt;Objective&lt;/h2&gt;&#xA;&lt;p&gt;To empower participants with a deep understanding and practical skills to design, deploy, and manage generative AI solutions, leveraging state-of-the-art tools and techniques to solve real-world challenges efficiently.&lt;/p&gt;</description>
     </item>
   </channel>

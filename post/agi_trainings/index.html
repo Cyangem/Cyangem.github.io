@@ -50,7 +50,7 @@
   lang="en-us"
   dir="ltr"
 >
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta
@@ -86,14 +86,14 @@ To empower participants with a deep understanding and practical skills to design
   
   
   
-  <link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+  <link rel="preload stylesheet" as="style" href="https://Cyangem.github.io/main.min.css" />
 
   
   
   
   
   
-  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
+  <link rel="preload" as="image" href="https://Cyangem.github.io/theme.png" />
 
   
   
@@ -105,11 +105,11 @@ To empower participants with a deep understanding and practical skills to design
 
   
   
-  <link rel="preload" as="image" href="http://localhost:1313/github.svg" />
+  <link rel="preload" as="image" href="https://Cyangem.github.io/github.svg" />
   
-  <link rel="preload" as="image" href="http://localhost:1313/instagram.svg" />
+  <link rel="preload" as="image" href="https://Cyangem.github.io/instagram.svg" />
   
-  <link rel="preload" as="image" href="http://localhost:1313/linkedin.svg" />
+  <link rel="preload" as="image" href="https://Cyangem.github.io/linkedin.svg" />
   
   
 
@@ -117,7 +117,7 @@ To empower participants with a deep understanding and practical skills to design
   
   <script
     defer
-    src="http://localhost:1313/highlight.min.js"
+    src="https://Cyangem.github.io/highlight.min.js"
     onload="hljs.initHighlightingOnLoad();"
   ></script>
   
@@ -129,11 +129,11 @@ To empower participants with a deep understanding and practical skills to design
   
   <link
     rel="icon"
-    href="http://localhost:1313/favicon.ico"
+    href="https://Cyangem.github.io/favicon.ico"
   />
   <link
     rel="apple-touch-icon"
-    href="http://localhost:1313/apple-touch-icon.png"
+    href="https://Cyangem.github.io/apple-touch-icon.png"
   />
 
   
@@ -142,12 +142,48 @@ To empower participants with a deep understanding and practical skills to design
   
   
   
+  
+  
+  
+  <meta itemprop="name" content="[Gen AI]  x  [Kaggle]">
+  <meta itemprop="description" content="Artical 2">
+  <meta itemprop="datePublished" content="2025-01-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-01-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="430">
+  <meta itemprop="keywords" content="FinTech,AI,Credit Risk">
+  
+  <meta property="og:url" content="https://Cyangem.github.io/post/agi_trainings/">
+  <meta property="og:site_name" content="Yaxin Li">
+  <meta property="og:title" content="[Gen AI]  x  [Kaggle]">
+  <meta property="og:description" content="Artical 2">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-01-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-01T00:00:00+00:00">
+    <meta property="article:tag" content="FinTech">
+    <meta property="article:tag" content="AI">
+    <meta property="article:tag" content="Credit Risk">
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="[Gen AI]  x  [Kaggle]">
+  <meta name="twitter:description" content="Artical 2">
+
+  
+  
+
+  
+  <link rel="canonical" href="https://Cyangem.github.io/post/agi_trainings/" />
+  
+  
 </head>
 
   <body class="text-black duration-200 ease-out dark:text-white">
     <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
   <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
-    <a class="-translate-y-[1px] text-2xl font-medium" href="http://localhost:1313/"
+    <a class="-translate-y-[1px] text-2xl font-medium" href="https://Cyangem.github.io/"
       >Yaxin Li</a
     >
     <div
@@ -308,13 +344,13 @@ To empower participants with a deep understanding and practical skills to design
 <h3 id="day1-prompt-engineering">Day1 Prompt Engineering</h3>
 <p>Explored the evolution of LLMs, from transformers to techniques like fine-tuning and inference acceleration. I also get trained in the art of prompt engineering for optimal LLM interaction.</p>
 <p>The code lab walked through getting started with the Gemini API and covered several prompt techniques and how different parameters impact the prompts.</p>
-<pre tabindex="0"><code>short_model = genai.GenerativeModel(
-    &#39;gemini-1.5-flash&#39;,
-    generation_config=genai.GenerationConfig(max_output_tokens=200))
-
-response = short_model.generate_content(&#39;Which loan segments in the portfolio show the highest risk of default?&#39;)
-print(response.text)
-</code></pre><h3 id="day2-embeddings-and-vector-storesdatabases">Day2 Embeddings and Vector Stores/Databases</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>short_model <span style="color:#f92672">=</span> genai<span style="color:#f92672">.</span>GenerativeModel(
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;gemini-1.5-flash&#39;</span>,
+</span></span><span style="display:flex;"><span>    generation_config<span style="color:#f92672">=</span>genai<span style="color:#f92672">.</span>GenerationConfig(max_output_tokens<span style="color:#f92672">=</span><span style="color:#ae81ff">200</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>response <span style="color:#f92672">=</span> short_model<span style="color:#f92672">.</span>generate_content(<span style="color:#e6db74">&#39;Which loan segments in the portfolio show the highest risk of default?&#39;</span>)
+</span></span><span style="display:flex;"><span>print(response<span style="color:#f92672">.</span>text)
+</span></span></code></pre></div><h3 id="day2-embeddings-and-vector-storesdatabases">Day2 Embeddings and Vector Stores/Databases</h3>
 <p>Learnt about the conceptual underpinning of embeddings and vector databases and how they can be used to bring live or specialist data into the LLM application. Explored their geometrical powers for classifying and comparing textual data.</p>
 <h3 id="day3-generative-ai-agents">Day3 Generative AI Agents</h3>
 <p>Learnt to build sophisticated AI agents by understanding their core components and the iterative development process.</p>
@@ -322,7 +358,17 @@ print(response.text)
 <h3 id="day4-domain-specific-llms">Day4 Domain-Specific LLMs</h3>
 <p>Delved into the creation and application of specialized LLMs like SecLM and MedLM/Med-PaLM, with insights from the researchers who built them.</p>
 <p>In the code labs, I have learnt how to add real world data to a model beyond its knowledge cut-off by grounding with Google Search.  Also learnt how to fine-tune a custom Gemini model using my own labeled data to solve custom tasks.</p>
-<h3 id="day5-mlops-for-generative-ai">Day5 MLOps for Generative AI</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> genai <span style="color:#f92672">import</span> CustomModel
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Fine-tune a model</span>
+</span></span><span style="display:flex;"><span>custom_model <span style="color:#f92672">=</span> CustomModel(<span style="color:#e6db74">&#39;gemini-1.5-base&#39;</span>)
+</span></span><span style="display:flex;"><span>training_data <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;path/to/labeled_data.jsonl&#34;</span>
+</span></span><span style="display:flex;"><span>custom_model<span style="color:#f92672">.</span>fine_tune(data_path<span style="color:#f92672">=</span>training_data)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Use the fine-tuned model</span>
+</span></span><span style="display:flex;"><span>response <span style="color:#f92672">=</span> custom_model<span style="color:#f92672">.</span>generate_content(<span style="color:#e6db74">&#39;Generate a summary of this financial report.&#39;</span>)
+</span></span><span style="display:flex;"><span>print(response<span style="color:#f92672">.</span>text)
+</span></span></code></pre></div><h3 id="day5-mlops-for-generative-ai">Day5 MLOps for Generative AI</h3>
 <p>Discover how to adapt MLOps practices for Generative AI and leverage Vertex AI&rsquo;s tools for foundation models and generative AI applications.</p>
 </section>
 
@@ -332,19 +378,19 @@ print(response.text)
      
     <a
       class="mb-1.5 ltr:mr-1.5 rtl:ml-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] dark:bg-white/[8%] dark:hover:bg-white/[12%]"
-      href="http://localhost:1313/tags/fintech"
+      href="https://Cyangem.github.io/tags/fintech"
       >FinTech</a
     >
      
     <a
       class="mb-1.5 ltr:mr-1.5 rtl:ml-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] dark:bg-white/[8%] dark:hover:bg-white/[12%]"
-      href="http://localhost:1313/tags/ai"
+      href="https://Cyangem.github.io/tags/ai"
       >AI</a
     >
      
     <a
       class="mb-1.5 ltr:mr-1.5 rtl:ml-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] dark:bg-white/[8%] dark:hover:bg-white/[12%]"
-      href="http://localhost:1313/tags/credit-risk"
+      href="https://Cyangem.github.io/tags/credit-risk"
       >Credit Risk</a
     >
     
@@ -359,7 +405,7 @@ print(response.text)
     class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg !leading-[1.2] *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
   >
     
-    <a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/post/placeholder-text/"
+    <a class="ltr:pr-3 rtl:pl-3" href="https://Cyangem.github.io/post/placeholder-text/"
       ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>The Journey to Data-Driven Decisions in FinTech</span></a
     >
     
@@ -389,7 +435,7 @@ print(response.text)
   <div class="mr-auto">
   
     &copy; 2025
-    <a class="link" href="http://localhost:1313/">Yaxin Li</a>
+    <a class="link" href="https://Cyangem.github.io/">Yaxin Li</a>
   
   </div>
   
