@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data on Yaxin Li</title>
-    <link>http://localhost:1313/tags/data/</link>
+    <link>https://Cyangem.github.io/tags/data/</link>
     <description>Recent content in Data on Yaxin Li</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://Cyangem.github.io/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Journey to FinTech</title>
-      <link>http://localhost:1313/post/article_intro/</link>
+      <link>https://Cyangem.github.io/post/article_intro/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/article_intro/</guid>
+      <guid>https://Cyangem.github.io/post/article_intro/</guid>
       <description>&lt;p&gt;Welcome to my blog! I’m thrilled to kick things off by sharing a bit about my journey into the world of data-driven decision-making within FinTech. For as long as I can remember, I’ve been fascinated by numbers and patterns, leading me first into mathematics and finance, and then into the world of data engineering. Now, I have the privilege of applying these skills to the dynamic challenges in credit risk and strategy.&lt;/p&gt;</description>
     </item>
   </channel>
