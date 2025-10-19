@@ -1,0 +1,487 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+  dir="ltr"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>My Data Engineering Journey - Yaxin Li</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="1. Introduction: From Intern to Data Engineer
+My journey as a Data Engineer began with curiosity — how do banks turn millions of data points into insights that drive lending or risk strategy? Over time, I found myself designing ETL pipelines, automating workflows, and even building machine learning pipelines to predict loan delinquency.
+Before becoming a full-time Data Engineer, I started as a DE intern for 3 months. That experience helped me understand the fundamentals of data pipelines, governance, and business reporting. Later, I joined a bank where I spent 1.5 years as a Data Engineer, supporting business intelligence, automation, and analytics for multiple departments." />
+  <meta name="author" content="Yaxin Li" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://Cyangem.github.io/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://Cyangem.github.io/theme.png" />
+
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://www.gravatar.com/avatar/ef333c1203724d1cb48104b2679529bb?s=160&amp;d=identicon" />
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="https://Cyangem.github.io/github.svg" />
+  
+  <link rel="preload" as="image" href="https://Cyangem.github.io/linkedin.svg" />
+  
+  
+
+  
+  
+  <script
+    defer
+    src="https://Cyangem.github.io/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link
+    rel="icon"
+    href="https://Cyangem.github.io/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://Cyangem.github.io/apple-touch-icon.png"
+  />
+
+  
+  <meta name="generator" content="Hugo 0.135.0">
+
+  
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="My Data Engineering Journey">
+  <meta itemprop="description" content="Artical 3">
+  <meta itemprop="datePublished" content="2025-09-01T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-09-01T00:00:00+00:00">
+  <meta itemprop="wordCount" content="599">
+  <meta itemprop="keywords" content="Data Engineering,AWS,Machine Learning">
+  
+  <meta property="og:url" content="https://Cyangem.github.io/post/article_de_experience/">
+  <meta property="og:site_name" content="Yaxin Li">
+  <meta property="og:title" content="My Data Engineering Journey">
+  <meta property="og:description" content="Artical 3">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-09-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-01T00:00:00+00:00">
+    <meta property="article:tag" content="Data Engineering">
+    <meta property="article:tag" content="AWS">
+    <meta property="article:tag" content="Machine Learning">
+      <meta property="og:see_also" content="https://Cyangem.github.io/post/article_agi_ds/">
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="My Data Engineering Journey">
+  <meta name="twitter:description" content="Artical 3">
+
+  
+  
+
+  
+  <link rel="canonical" href="https://Cyangem.github.io/post/article_de_experience/" />
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="https://Cyangem.github.io/"
+      >Yaxin Li</a
+    >
+    <div
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse">
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/contact/"
+        >Contact</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 rtl:space-x-reverse dark:invert ltr:lg:ml-14 rtl:lg:mr-14 lg:mt-0 lg:items-center"
+    >
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./github.svg)"
+        href="https://github.com/Cyangem"
+        target="_blank"
+        rel="me"
+      >
+        github
+      </a>
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./linkedin.svg)"
+        href="https://linkedin.com/in/gracelila"
+        target="_blank"
+        rel="me"
+      >
+        linkedin
+      </a>
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-14">
+    <h1 class="!my-0 pb-2.5">My Data Engineering Journey</h1>
+
+    
+    <div class="text-xs antialiased opacity-60">
+      
+      <time>Sep 1, 2025</time>
+      
+      
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>Yaxin Li</span>
+      
+    </div>
+    
+  </header>
+
+  <section><h2 id="1-introduction-from-intern-to-data-engineer">1. Introduction: From Intern to Data Engineer</h2>
+<p>My journey as a Data Engineer began with curiosity — how do banks turn millions of data points into insights that drive lending or risk strategy? Over time, I found myself designing ETL pipelines, automating workflows, and even building machine learning pipelines to predict loan delinquency.</p>
+<p>Before becoming a full-time Data Engineer, I started as a DE intern for 3 months. That experience helped me understand the fundamentals of data pipelines, governance, and business reporting. Later, I joined a bank where I spent 1.5 years as a Data Engineer, supporting business intelligence, automation, and analytics for multiple departments.</p>
+<hr>
+<h2 id="2-core-projects--technical-contributions">2. Core Projects &amp; Technical Contributions</h2>
+<h3 id="-building-data-models-for-business-intelligence">🧩 Building Data Models for Business Intelligence</h3>
+<ul>
+<li><strong>Tools:</strong> SQL Server, Power BI, ETL scripting</li>
+<li><strong>Summary:</strong> Built data models and conducted analysis to support BI and decision-making across departments.</li>
+<li><strong>Impact:</strong> Contributed to 10+ Power BI reports, improving data accessibility and operational visibility.</li>
+<li><strong>Reflection:</strong> Learned how to balance data accuracy with performance and how visualization drives real business decisions.</li>
+</ul>
+<hr>
+<h3 id="-machine-learning-for-loan-delinquency-prediction">🤖 Machine Learning for Loan Delinquency Prediction</h3>
+<ul>
+<li><strong>Tech:</strong> Python, Scikit-learn, Power BI integration</li>
+<li><strong>Summary:</strong> Developed and deployed ML models to predict SFR loan delinquencies.</li>
+<li><strong>Impact:</strong> Improved prediction accuracy by <strong>15%</strong> compared to traditional methods.</li>
+<li><strong>Reflection:</strong> Learned how to integrate ML workflows into production pipelines and how model outputs can empower risk management.</li>
+</ul>
+<hr>
+<h3 id="-powershell-based-etl-optimization">⚙️ PowerShell-Based ETL Optimization</h3>
+<ul>
+<li><strong>Tech:</strong> PowerShell, SQL Server</li>
+<li><strong>Summary:</strong> Re-engineered 20+ ETL pipelines for better performance and maintainability.</li>
+<li><strong>Impact:</strong> Achieved <strong>42% faster</strong> data model updates and more reliable scheduling.</li>
+<li><strong>Reflection:</strong> Gained experience in optimizing scripts, automating data refreshes, and designing modular ETL components.</li>
+</ul>
+<hr>
+<h3 id="-bloomberg-api-data-pipeline">💰 Bloomberg API Data Pipeline</h3>
+<ul>
+<li><strong>Tech:</strong> Python, Bloomberg API</li>
+<li><strong>Summary:</strong> Designed a pipeline to process Bloomberg financial data and automate ingestion workflows.</li>
+<li><strong>Impact:</strong> Reduced third-party data dependency, saving <strong>$23,760 annually</strong>.</li>
+<li><strong>Reflection:</strong> Learned how to integrate external data sources securely and manage cost efficiency in data design.</li>
+</ul>
+<hr>
+<h2 id="3-expanding-into-cloud-data-engineering-aws">3. Expanding into Cloud Data Engineering (AWS)</h2>
+<h3 id="-using-aws-emr-studio-with-pyspark">☁️ Using AWS EMR Studio with PySpark</h3>
+<p>Explored distributed data processing on AWS EMR Studio to handle larger datasets and parallelize data transformations.<br>
+Learned how EMR differs from local Spark setups and practiced writing PySpark scripts to scale data workflows efficiently.</p>
+<h3 id="-exploring-aws-sagemaker">🧠 Exploring AWS SageMaker</h3>
+<p>Currently learning AWS SageMaker for end-to-end machine learning model training and deployment.<br>
+My goal is to bridge Data Engineering and Data Science — from building clean datasets to automating model pipelines in the cloud.</p>
+<hr>
+<h2 id="4-reflection-from-data-movement-to-data-impact">4. Reflection: From Data Movement to Data Impact</h2>
+<p>Working as a Data Engineer in banking taught me that data work goes beyond pipelines and dashboards.<br>
+It’s about building <strong>trustworthy data systems</strong> that allow analysts, strategists, and executives to make informed decisions.</p>
+<p>I’ve learned:</p>
+<ul>
+<li>Data quality and observability are critical foundations.</li>
+<li>Automation saves time, but clarity and documentation save teams.</li>
+<li>Collaboration with business users is key to delivering meaningful insights.</li>
+</ul>
+<hr>
+<h2 id="5-future-roadmap--learning-goals">5. Future Roadmap &amp; Learning Goals</h2>
+<p><strong>Short-Term</strong></p>
+<ul>
+<li>Master AWS services like <strong>SageMaker</strong>, <strong>Glue</strong>, and <strong>Redshift</strong>.</li>
+<li>Build a small personal project using AWS data lake architecture.</li>
+</ul>
+<p><strong>Mid-Term</strong></p>
+<ul>
+<li>Create an end-to-end pipeline combining data ingestion, ML training, and dashboard reporting.</li>
+<li>Explore tools like <strong>Airflow</strong> and <strong>dbt</strong> for orchestration and transformation.</li>
+</ul>
+<p><strong>Long-Term</strong></p>
+<ul>
+<li>Contribute to open-source data tools.</li>
+<li>Write deep-dive case studies on production-scale data systems.</li>
+<li>Mentor others transitioning into data engineering.</li>
+</ul>
+<hr>
+<h2 id="-my-data-engineer-toolkit">⚙️ My Data Engineer Toolkit</h2>
+<ul>
+<li><strong>Languages:</strong> Python, SQL, PowerShell</li>
+<li><strong>Frameworks:</strong> PySpark, Scikit-learn</li>
+<li><strong>Tools:</strong> Power BI, AWS EMR, SageMaker, Bloomberg API</li>
+<li><strong>Practices:</strong> Modular ETL design, pipeline optimization, logging, documentation</li>
+</ul>
+<hr>
+<h2 id="-lessons-learned">🪞 Lessons Learned</h2>
+<blockquote>
+<ul>
+<li>Clean, well-documented data pipelines scale better than complex ones.</li>
+<li>Performance tuning is as much art as engineering.</li>
+<li>The best Data Engineers understand business context as deeply as data architecture.</li>
+</ul>
+</blockquote>
+<hr>
+<p><em>Last updated: October 2025</em><br>
+<em>Author: Grace L.</em></p>
+</section>
+
+  
+  
+  <footer class="mt-12 flex flex-wrap">
+     
+    <a
+      class="mb-1.5 ltr:mr-1.5 rtl:ml-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="https://Cyangem.github.io/tags/data-engineering"
+      >Data Engineering</a
+    >
+     
+    <a
+      class="mb-1.5 ltr:mr-1.5 rtl:ml-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="https://Cyangem.github.io/tags/aws"
+      >AWS</a
+    >
+     
+    <a
+      class="mb-1.5 ltr:mr-1.5 rtl:ml-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] dark:bg-white/[8%] dark:hover:bg-white/[12%]"
+      href="https://Cyangem.github.io/tags/machine-learning"
+      >Machine Learning</a
+    >
+    
+  </footer>
+  
+
+  
+  
+  
+  
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg !leading-[1.2] *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  >
+    
+    <a class="ltr:pr-3 rtl:pl-3" href="https://Cyangem.github.io/post/article_intro/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>The Journey to FinTech</span></a
+    >
+    
+    
+    <a class="ltr:ml-auto rtl:mr-auto justify-end pl-3" href="https://Cyangem.github.io/post/article_agi_ds/"
+      ><span>[Gen AI]  x  [Kaggle]</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
+>
+  <div class="mr-auto">
+  
+    &copy; 2025
+    <a class="link" href="https://Cyangem.github.io/">Yaxin Li</a>
+  
+  </div>
+  
+  
+  <footer>
+    <p>© All rights reserved</p>
+</footer>
+</footer>
+
+  </body>
+</html>

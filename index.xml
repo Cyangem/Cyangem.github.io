@@ -6,7 +6,7 @@
     <description>Recent content on Yaxin Li</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://Cyangem.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Journey to FinTech</title>
@@ -14,6 +14,13 @@
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://Cyangem.github.io/post/article_intro/</guid>
       <description>&lt;p&gt;Welcome to my blog! I’m thrilled to kick things off by sharing a bit about my journey into the world of data-driven decision-making within FinTech. For as long as I can remember, I’ve been fascinated by numbers and patterns, leading me first into mathematics and finance, and then into the world of data engineering. Now, I have the privilege of applying these skills to the dynamic challenges in credit risk and strategy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Data Engineering Journey</title>
+      <link>https://Cyangem.github.io/post/article_de_experience/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyangem.github.io/post/article_de_experience/</guid>
+      <description>&lt;h2 id=&#34;1-introduction-from-intern-to-data-engineer&#34;&gt;1. Introduction: From Intern to Data Engineer&lt;/h2&gt;&#xA;&lt;p&gt;My journey as a Data Engineer began with curiosity — how do banks turn millions of data points into insights that drive lending or risk strategy? Over time, I found myself designing ETL pipelines, automating workflows, and even building machine learning pipelines to predict loan delinquency.&lt;/p&gt;&#xA;&lt;p&gt;Before becoming a full-time Data Engineer, I started as a DE intern for 3 months. That experience helped me understand the fundamentals of data pipelines, governance, and business reporting. Later, I joined a bank where I spent 1.5 years as a Data Engineer, supporting business intelligence, automation, and analytics for multiple departments.&lt;/p&gt;</description>
     </item>
     <item>
       <title>[Gen AI]  x  [Kaggle]</title>
