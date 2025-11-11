@@ -6,12 +6,12 @@
     <description>Recent content in Machine Learning on Yaxin Li</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://Cyangem.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Data Engineering Journey</title>
+      <title>Journey into Data Engineering</title>
       <link>https://Cyangem.github.io/post/article_de_experience/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://Cyangem.github.io/post/article_de_experience/</guid>
       <description>&lt;h2 id=&#34;1-introduction-from-intern-to-data-engineer&#34;&gt;1. Introduction: From Intern to Data Engineer&lt;/h2&gt;&#xA;&lt;p&gt;My journey as a Data Engineer began with curiosity — how do banks turn millions of data points into insights that drive lending or risk strategy? Over time, I found myself designing ETL pipelines, automating workflows, and even building machine learning pipelines to predict loan delinquency.&lt;/p&gt;&#xA;&lt;p&gt;Before becoming a full-time Data Engineer, I started as a DE intern for 3 months. That experience helped me understand the fundamentals of data pipelines, governance, and business reporting. Later, I joined a bank where I spent 1.5 years as a Data Engineer, supporting business intelligence, automation, and analytics for multiple departments.&lt;/p&gt;</description>
     </item>
