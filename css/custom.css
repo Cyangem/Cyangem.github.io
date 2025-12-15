@@ -1,0 +1,70 @@
+/* ---------- Light mode ---------- */
+.post-card {
+  position: relative;
+  background: #ffffff;
+  color: #111111;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 18px;
+
+  padding: 15px 23px;
+  margin: 15px 0;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.post-card-title {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.post-card-title a {
+  color: #111111;
+  text-decoration: none;
+}
+
+.post-card-title a:hover {
+  text-decoration: underline;
+}
+
+.post-card p {
+  margin: 14px 0 18px;
+  color: rgba(17, 17, 17, 0.8);
+}
+
+.post-card time {
+  font-size: 0.85rem;
+  color: rgba(17, 17, 17, 0.55);
+}
+
+/* hover */
+.post-card:hover {
+  transform: translateY(-2px);
+  transition: all 0.15s ease;
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.12);
+}
+
+/* ---------- Dark mode ---------- */
+@media (prefers-color-scheme: dark) {
+  .post-card {
+    background: #1f1f1f; /* 深灰色底 */
+    color: #f5f5f5;
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+  }
+
+  .post-card-title a {
+    color: #f5f5f5;
+  }
+
+  .post-card p {
+    color: rgba(245, 245, 245, 0.75);
+  }
+
+  .post-card time {
+    color: rgba(245, 245, 245, 0.55);
+  }
+}
