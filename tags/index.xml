@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Yaxin Li</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://Cyangem.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data</title>
+      <link>https://Cyangem.github.io/tags/data/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyangem.github.io/tags/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FinTech</title>
+      <link>https://Cyangem.github.io/tags/fintech/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyangem.github.io/tags/fintech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Index</title>
+      <link>https://Cyangem.github.io/tags/index/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://Cyangem.github.io/tags/index/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AWS</title>
       <link>https://Cyangem.github.io/tags/aws/</link>
@@ -20,13 +41,6 @@
       <link>https://Cyangem.github.io/tags/data-engineering/</link>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://Cyangem.github.io/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Index</title>
-      <link>https://Cyangem.github.io/tags/index/</link>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyangem.github.io/tags/index/</guid>
       <description></description>
     </item>
     <item>
@@ -69,20 +83,6 @@
       <link>https://Cyangem.github.io/tags/credit-risk/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://Cyangem.github.io/tags/credit-risk/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>FinTech</title>
-      <link>https://Cyangem.github.io/tags/fintech/</link>
-      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://Cyangem.github.io/tags/fintech/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data</title>
-      <link>https://Cyangem.github.io/tags/data/</link>
-      <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://Cyangem.github.io/tags/data/</guid>
       <description></description>
     </item>
   </channel>
